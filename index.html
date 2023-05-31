@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <title>Encriptador</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logoAlura">
+            <img src="/imagens/logo_alura.svg" alt="Logo da Alura">
+        </div>
+    </header>
+
+    <main>
+        <section class="entrada">
+            <textarea id="textAreaEntrada" placeholder="digite ou cole seu texto aqui"></textarea>
+            
+            <div class="info">
+                <img id="icone" src="/imagens/Ico_exclamation.svg" alt="ícone de exclamação">
+                <span>Apenas letras minúsculas e sem acento.</span>
+            </div>
+                
+            <div class="botoes">
+                <button class="criptografar" onclick="codificarTexto()">Criptografar</button>
+                <button class="descriptografar"onclick="decodificarTexto()">Descriptografar</button>
+            </div>
+        </section>
+        
+        <section class="saida">
+            <div class="resultado">
+                <img id="pessoa" src="/imagens/pessoa_lupa.svg" alt="Pessoa usando uma lupa para examinar um diamante">
+                <div class="msg">
+                    <span id="txt1">Nenhuma mensagem encontrada</span>
+                    <p id="txt2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+                <textarea disabled id="textAreaSaida"></textarea>
+             </div>
+            <div class="botoes2">
+                <button id="copiarBotao">Copiar</button>
+                <button id="colarBotao">Colar</button>
+            </div>
+        </section>
+    </main>
+
+    
+</body>
+</html>
