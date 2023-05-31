@@ -1,0 +1,11 @@
+repositorio:
+ChallengeOracleONE
+
+descricao:
+Construção de um decodificador de texto com Javascript, para o desafio Oracle One - Alura Turma 5 2023
+
+link:
+https://github.com/BrunoBride/ChallengeOracleONE.git
+
+topico:
+challengeonedecodificador5
